@@ -1,0 +1,25 @@
+.Button {
+  width: 157px;
+  height: 144px;
+
+  background: #eaabf4;
+}
+.Text {
+  width: 80px;
+  height: 14px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+.Circle {
+  position: absolute;
+  width: 157px;
+  height: 144px;
+
+  background: #eaabf4;
+}

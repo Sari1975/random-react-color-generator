@@ -6,8 +6,8 @@ export default function Cover() {
   return (
     <div className="Cover" hidden={hidden}>
       <p className="Paragraph">
-        Welcome to our Random Color Generator website where you can generate
-        your own color and get Hex code for that color
+        Welcome to our Random Color Generator website! Now you can generate your
+        own color and get the Hex code...
       </p>
       <button className="ButtonX" onClick={() => setHidden(true)}>
         &times;

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Button.css';
+import PropTypes from 'prop-types';
 
 export default function Button(props) {
   return (
@@ -8,3 +9,4 @@ export default function Button(props) {
     </button>
   );
 }
+Button.propTypes = { onClickRandomColor: PropTypes.func };

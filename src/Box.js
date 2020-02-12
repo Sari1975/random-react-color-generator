@@ -1,5 +1,6 @@
 import React from 'react';
 import './Box.css';
+import PropTypes from 'prop-types';
 
 export default function Box(props) {
   return (
@@ -8,3 +9,4 @@ export default function Box(props) {
     </div>
   );
 }
+Box.propTypes = { color: PropTypes.string };

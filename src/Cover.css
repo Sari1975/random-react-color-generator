@@ -1,32 +1,31 @@
 .Cover {
-  width: 856px;
-  height: 868px;
-
+  position: fixed;
+  opacity: 74%;
+  height: 100%;
   background: rgba(136, 130, 130, 0.81);
 }
 .Paragraph {
-  width: 444px;
-  height: 73px;
-
-  font-family: Roboto;
+  font-family: Aclonica;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 105px;
   line-height: 70px;
   text-align: center;
 
   color: #fffafa;
+  position: relative;
 }
 .X {
+  position: relative;
+  top: 0;
+  right: 0;
   width: 15px;
   height: 35px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 35px;
   text-align: center;
-
-  color: #fffcfc;
+  color: #574a4a;
 }

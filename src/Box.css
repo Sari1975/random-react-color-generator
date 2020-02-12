@@ -1,8 +1,11 @@
 .Box {
   width: 505px;
   height: 263px;
-
-  background: #eaabf4;
+  background: #e91196;
+  object-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .Text {
   width: 105px;
@@ -14,5 +17,5 @@
   font-size: 12px;
   line-height: 14px;
 
-  color: #000000;
+  color: #f8f5f7;
 }
